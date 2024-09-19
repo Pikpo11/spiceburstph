@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Burst - Ignite Your Taste Buds</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FAFAFA;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #BF360C;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('logo.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+        }
+
+        /* Main Content */
+        .container {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .product-info {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .product-info h2 {
+            color: #FF5722;
+            font-size: 2.5rem;
+        }
+
+        .product-info p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-top: 20px;
+            color: #555;
+        }
+
+        .product-info img {
+            width: 300px;
+            height: auto;
+            display: block;
+            margin: 30px auto;
+        }
+
+        /* Buy Now Section */
+        .buy-now {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .buy-now button {
+            background-color: #FF5722;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .buy-now button:hover {
+            background-color: #E64A19;
+        }
+
+        /* Customer Reviews */
+        .reviews {
+            margin-top: 60px;
+            text-align: center;
+        }
+
+        .reviews h2 {
+            color: #FF5722;
+            font-size: 2rem;
+        }
+
+        .review {
+            background-color: #FFF8E1;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #FF5722;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <h1>Spice Burst</h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Ignite Your Taste Buds!</h1>
+    </section>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Product Section -->
+        <section id="product" class="product-info">
+            <h2>Fiery Chili Sauce</h2>
+            <img src="logo.jpg" alt="Spice Burst Hot Sauce">
+            <p>Experience the perfect balance of heat and flavor with our Fiery Chili Sauce. Made from handpicked, sun-ripened chili peppers, this sauce delivers a bold, spicy kick that enhances every dish. Infused with a blend of garlic, vinegar, and a touch of sweetness, it’s the ultimate condiment for those who crave an extra punch.</p>
+        </section>
+
+        <!-- Buy Now Section -->
+        <div class="buy-now">
+            <h2>Get Yours Today</h2>
+            <button onclick="window.location.href='#'">Buy Now</button>
+        </div>
+
+        <!-- Customer Reviews Section -->
+        <section id="reviews" class="reviews">
+            <h2>Customer Reviews</h2>
+
+            <div class="review">
+                <p>"This sauce is fire! The perfect blend of heat and flavor. I can’t get enough!" - Jane D.</p>
+            </div>
+
+            <div class="review">
+                <p>"I love spicy food, and this is hands down the best hot sauce I’ve tried!" - John S.</p>
+            </div>
+
+            <div class="review">
+                <p>"My meals have never been more exciting thanks to Spice Burst. A must-try for hot sauce lovers!" - Alex W.</p>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Spice Burst | All rights reserved. Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+    </footer>
+
+</body>
+</html>
